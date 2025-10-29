@@ -1,0 +1,134 @@
+{
+   "checksum": "ecc8d642f143ff0cb51b9dfb18704aa8",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13357561546996051",
+            "date_last_used": "13402453871426615",
+            "guid": "b81032bd-4794-4e0b-9550-a0d47e56b1d2",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "canvas",
+            "type": "url",
+            "url": "https://canvas.phenikaa-uni.edu.vn/"
+         }, {
+            "date_added": "13369563309642352",
+            "date_last_used": "13401883075223861",
+            "guid": "925464dd-d807-40fd-a7af-30dd8a53c98f",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub",
+            "type": "url",
+            "url": "https://github.com/"
+         }, {
+            "date_added": "13371277910678394",
+            "date_last_used": "0",
+            "guid": "72e18fc3-19a2-4d43-8a45-07c9839c535c",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "50+ Navigation Bar using HTML, CSS & JavaScript (Code+ Demo)",
+            "type": "url",
+            "url": "https://foolishdeveloper.com/navigation-bar-html-css-javascript/"
+         }, {
+            "date_added": "13373633941936425",
+            "date_last_used": "13399971266702360",
+            "guid": "1840b770-7e64-4a3b-9efe-bdbc106ddee2",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "sourcecode_cinema - Google Drive",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/10RceW-ZQisSZnKpu5pL-9MPF7exsxVPv"
+         }, {
+            "date_added": "13378264867000015",
+            "date_last_used": "13400838053770763",
+            "guid": "c646ded3-343d-4522-8e36-2f367a70f312",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Học tập | CodeLearn",
+            "type": "url",
+            "url": "https://codelearn.io/learning"
+         }, {
+            "date_added": "13381162000071578",
+            "date_last_used": "13389771327744383",
+            "guid": "6784061d-f4f2-4330-b0c0-890e2ecfe00a",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Bot vip - Replit",
+            "type": "url",
+            "url": "https://replit.com/@du253203/Bot-vip"
+         }, {
+            "date_added": "13391186694923867",
+            "date_last_used": "13394210733288687",
+            "guid": "a02bbc1b-36a7-40cf-8f04-0eeabbfaf259",
+            "id": "12",
+            "name": "Chào mừng bạn đến với Colab - Colab",
+            "type": "url",
+            "url": "https://colab.research.google.com/?authuser=1"
+         }, {
+            "date_added": "13392050687945498",
+            "date_last_used": "13395681358634417",
+            "guid": "cd538655-0879-457c-860d-73e689809903",
+            "id": "13",
+            "name": "AWS Academy Cloud Foundations [119836]",
+            "type": "url",
+            "url": "https://awsacademy.instructure.com/courses/119836?invitation=N7YspIETSR7dIb9yV35lDrAjVtEIJgXIoVegabxc"
+         }, {
+            "date_added": "13395250145030441",
+            "date_last_used": "0",
+            "guid": "26c04a29-8926-4925-b4b5-054223a69b4f",
+            "id": "14",
+            "name": "RoPhim - Phim hay cả rổ - Xem Phim Mới HD Online Vietsub",
+            "type": "url",
+            "url": "https://www.rophim.me/phimhay"
+         }, {
+            "date_added": "13396199405363052",
+            "date_last_used": "13402421420062068",
+            "guid": "ffe70aec-ae77-40b1-a115-982fd7edcc55",
+            "id": "15",
+            "name": "ntd253204 (@ntd253204) đang phát LIVE - TikTok LIVE",
+            "type": "url",
+            "url": "https://www.tiktok.com/@ntd253204/live?enter_from_merge=others_homepage&enter_method=others_photo"
+         } ],
+         "date_added": "13402461577617078",
+         "date_last_used": "0",
+         "date_modified": "13396199405363052",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13402461577617078",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13402461577617078",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
