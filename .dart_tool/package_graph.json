@@ -1,14 +1,15 @@
 {
   "roots": [
-    "flluter_application_1"
+    "app_music"
   ],
   "packages": [
     {
-      "name": "flluter_application_1",
+      "name": "app_music",
       "version": "1.0.0+1",
       "dependencies": [
         "cupertino_icons",
-        "flutter"
+        "flutter",
+        "font_awesome_flutter"
       ],
       "devDependencies": [
         "flutter_lints",
@@ -44,6 +45,13 @@
       "name": "cupertino_icons",
       "version": "1.0.8",
       "dependencies": []
+    },
+    {
+      "name": "font_awesome_flutter",
+      "version": "10.12.0",
+      "dependencies": [
+        "flutter"
+      ]
     },
     {
       "name": "flutter",
