@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 2025/11/03-20:23:24.322 771c Creating DB C:\Users\ASUS\AppData\Local\Temp\flutter_tools.716861bd\flutter_tools_chrome_device.4fa06a5\Default\Service Worker\Database since it was missing.
 2025/11/03-20:23:24.326 771c Reusing MANIFEST C:\Users\ASUS\AppData\Local\Temp\flutter_tools.716861bd\flutter_tools_chrome_device.4fa06a5\Default\Service Worker\Database/MANIFEST-000001
+=======
+2025/11/07-14:14:11.736 1604 Reusing MANIFEST C:\Users\Admin\AppData\Local\Temp\flutter_tools.200cb3cb\flutter_tools_chrome_device.f9139c96\Default\Service Worker\Database/MANIFEST-000001
+2025/11/07-14:14:11.738 1604 Recovering log #3
+2025/11/07-14:14:11.739 1604 Reusing old log C:\Users\Admin\AppData\Local\Temp\flutter_tools.200cb3cb\flutter_tools_chrome_device.f9139c96\Default\Service Worker\Database/000003.log 
+>>>>>>> fbb4fa1 (Sắp xếp lại file)

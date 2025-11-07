@@ -1,5 +1,6 @@
 {
    "epochs": [ {
+<<<<<<< HEAD
       "calculation_time": "13404468171232176",
       "config_version": 0,
       "model_version": "0",
@@ -8,12 +9,20 @@
       "top_topics_and_observing_domains": [  ]
    }, {
       "calculation_time": "13406405631720236",
+=======
+      "calculation_time": "13406477863786080",
+>>>>>>> fbb4fa1 (Sắp xếp lại file)
       "config_version": 0,
       "model_version": "0",
       "padded_top_topics_start_index": 0,
       "taxonomy_version": 0,
       "top_topics_and_observing_domains": [  ]
    } ],
+<<<<<<< HEAD
    "hex_encoded_hmac_key": "38812534605D74108CA59678150A087480E4F45BA107C67EC1E56D97FA170C90",
    "next_scheduled_calculation_time": "13407010431720394"
+=======
+   "hex_encoded_hmac_key": "2EAA76EB168887184379200025482CD09B317FBA7D6D108A9E73D5170CD14964",
+   "next_scheduled_calculation_time": "13407082663786411"
+>>>>>>> fbb4fa1 (Sắp xếp lại file)
 }

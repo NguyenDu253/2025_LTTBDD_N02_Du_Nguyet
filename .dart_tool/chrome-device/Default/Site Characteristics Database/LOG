@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2025/11/03-20:23:03.455 7c8c Reusing MANIFEST C:\Users\ASUS\AppData\Local\Temp\flutter_tools.716861bd\flutter_tools_chrome_device.4fa06a5\Default\Site Characteristics Database/MANIFEST-000001
 2025/11/03-20:23:03.474 7c8c Recovering log #3
 2025/11/03-20:23:03.474 7c8c Level-0 table #6: started
@@ -5,3 +6,8 @@
 2025/11/03-20:23:03.476 7c8c Recovering log #6
 2025/11/03-20:23:03.476 7c8c Reusing old log C:\Users\ASUS\AppData\Local\Temp\flutter_tools.716861bd\flutter_tools_chrome_device.4fa06a5\Default\Site Characteristics Database/000006.log 
 2025/11/03-20:23:03.478 7c8c Delete type=0 #3
+=======
+2025/11/07-14:14:11.763 ea4 Reusing MANIFEST C:\Users\Admin\AppData\Local\Temp\flutter_tools.200cb3cb\flutter_tools_chrome_device.f9139c96\Default\Site Characteristics Database/MANIFEST-000001
+2025/11/07-14:14:11.764 ea4 Recovering log #3
+2025/11/07-14:14:11.764 ea4 Reusing old log C:\Users\Admin\AppData\Local\Temp\flutter_tools.200cb3cb\flutter_tools_chrome_device.f9139c96\Default\Site Characteristics Database/000003.log 
+>>>>>>> fbb4fa1 (Sắp xếp lại file)

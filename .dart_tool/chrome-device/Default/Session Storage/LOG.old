@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 2025/11/01-00:33:48.246 5c30 Creating DB C:\Users\ASUS\AppData\Local\Temp\flutter_tools.4f1a9eef\flutter_tools_chrome_device.6bbac711\Default\Session Storage since it was missing.
 2025/11/01-00:33:48.299 5c30 Reusing MANIFEST C:\Users\ASUS\AppData\Local\Temp\flutter_tools.4f1a9eef\flutter_tools_chrome_device.6bbac711\Default\Session Storage/MANIFEST-000001
+=======
+2025/11/06-21:06:54.815 aec Reusing MANIFEST C:\Users\Admin\AppData\Local\Temp\flutter_tools.12d0b8bf\flutter_tools_chrome_device.7fe9ab80\Default\Session Storage/MANIFEST-000001
+2025/11/06-21:06:54.844 aec Recovering log #3
+2025/11/06-21:06:54.852 aec Reusing old log C:\Users\Admin\AppData\Local\Temp\flutter_tools.12d0b8bf\flutter_tools_chrome_device.7fe9ab80\Default\Session Storage/000003.log 
+>>>>>>> fbb4fa1 (Sắp xếp lại file)
