@@ -13,7 +13,7 @@ class PremiumScreen extends StatelessWidget {
       backgroundColor: kBackground,
       appBar: AppBar(
         title: Text(
-          tr('music_title'), //Đa ngôn ngữ
+          tr('premium_title', args: ['Premium']), // Đa ngôn ngữ: "Premium"
           style: const TextStyle(fontWeight: FontWeight.bold),
         ),
         backgroundColor: kBackground,
@@ -21,56 +21,151 @@ class PremiumScreen extends StatelessWidget {
         centerTitle: true,
       ),
       body: SafeArea(
-        child: Padding(
+        child: SingleChildScrollView(
           padding: const EdgeInsets.fromLTRB(16, 18, 16, 100),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
+              //Banner Premium
               Container(
                 height: 220,
                 decoration: BoxDecoration(
-                  color: Colors.grey[900],
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: Center(
-                  child: Text(
-                    tr('premium_banner'), //Premium banner
-                    style: const TextStyle(
-                      color: Color.fromARGB(255, 255, 255, 255),
-                      fontSize: 18,
-                    ),
+                  gradient: const LinearGradient(
+                    colors: [Color(0xFFff9966), Color(0xFFff5e62)],
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
                   ),
+                  borderRadius: BorderRadius.circular(16),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withOpacity(0.3),
+                      blurRadius: 8,
+                      offset: const Offset(0, 4),
+                    ),
+                  ],
+                ),
+                child: Stack(
+                  children: [
+                    // Biểu tượng vương miện
+                    Positioned(
+                      top: 16,
+                      right: 16,
+                      child: Icon(
+                        Icons.workspace_premium_rounded,
+                        color: Colors.yellow[300],
+                        size: 48,
+                      ),
+                    ),
+                    Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: const [
+                          Text(
+                            "Go Premium",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 26,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          SizedBox(height: 8),
+                          Text(
+                            "Nghe nhạc không quảng cáo.\nTải bài hát và nghe offline.",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: Colors.white70,
+                              fontSize: 15,
+                              height: 1.4,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
                 ),
               ),
-              const SizedBox(height: 20),
-              Text(
-                tr('premium_description'), // Mô tả Premium
-                style: const TextStyle(
+              const SizedBox(height: 24),
+
+              // Lý do nâng cấp
+              const Text(
+                "Vì sao nên nâng cấp Premium?",
+                style: TextStyle(
                   color: Colors.white,
-                  fontSize: 18,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
-                textAlign: TextAlign.center,
               ),
-              const SizedBox(height: 12),
-              Text(
-                tr('premium_reason'), //Lý do nên dùng
-                style: const TextStyle(color: Colors.white70),
-              ),
-              const SizedBox(height: 20),
-              ElevatedButton(
-                onPressed: () {},
+              const SizedBox(height: 16),
+
+              _featureTile(Icons.music_note, "Nghe nhạc chất lượng cao"),
+              _featureTile(Icons.offline_bolt, "Không cần mạng, nghe offline"),
+              _featureTile(Icons.no_accounts, "Không quảng cáo làm phiền"),
+              _featureTile(Icons.devices, "Đồng bộ nhiều thiết bị"),
+
+              const SizedBox(height: 28),
+
+              // Nút nâng cấp ngay
+              ElevatedButton.icon(
+                onPressed: () {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      content: Text(
+                        "Chức năng nâng cấp Premium đang được phát triển!",
+                      ),
+                      backgroundColor: kAccentGreen,
+                    ),
+                  );
+                },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: kAccentGreen,
-                  minimumSize: const Size.fromHeight(48),
+                  minimumSize: const Size.fromHeight(52),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(30),
+                  ),
+                  elevation: 5,
                 ),
-                child: Text(
-                  tr('upgrade_now'), // Nâng cấp ngay
-                  style: const TextStyle(color: Colors.black),
+                icon: const Icon(
+                  Icons.arrow_upward_rounded,
+                  color: Colors.black,
+                ),
+                label: const Text(
+                  "Nâng cấp ngay",
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 18,
+                  ),
                 ),
               ),
             ],
           ),
         ),
+      ),
+    );
+  }
+
+  // Widget hiển thị từng lợi ích của Premium
+  Widget _featureTile(IconData icon, String text) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 6),
+      child: Row(
+        children: [
+          Container(
+            padding: const EdgeInsets.all(8),
+            decoration: BoxDecoration(
+              color: Colors.grey[850],
+              borderRadius: BorderRadius.circular(10),
+            ),
+            child: Icon(icon, color: kAccentGreen, size: 26),
+          ),
+          const SizedBox(width: 16),
+          Expanded(
+            child: Text(
+              text,
+              style: const TextStyle(color: Colors.white, fontSize: 16),
+            ),
+          ),
+        ],
       ),
     );
   }

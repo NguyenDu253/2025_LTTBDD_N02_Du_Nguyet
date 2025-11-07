@@ -1,3 +1,5 @@
-2025/09/23-08:04:51.123 30b8 Reusing MANIFEST C:\Users\Admin\AppData\Local\Temp\flutter_tools.665dec2b\flutter_tools_chrome_device.6356addd\Default\Extension Scripts/MANIFEST-000001
-2025/09/23-08:04:51.124 30b8 Recovering log #3
-2025/09/23-08:04:51.125 30b8 Reusing old log C:\Users\Admin\AppData\Local\Temp\flutter_tools.665dec2b\flutter_tools_chrome_device.6356addd\Default\Extension Scripts/000003.log 
+<<<<<<< HEAD
+=======
+2025/11/01-20:37:40.283 3898 Creating DB C:\Users\Admin\AppData\Local\Temp\flutter_tools.f832249\flutter_tools_chrome_device.b6450be2\Default\Extension Scripts since it was missing.
+2025/11/01-20:37:40.296 3898 Reusing MANIFEST C:\Users\Admin\AppData\Local\Temp\flutter_tools.f832249\flutter_tools_chrome_device.b6450be2\Default\Extension Scripts/MANIFEST-000001
+>>>>>>> fbb4fa1 (Sắp xếp lại file)

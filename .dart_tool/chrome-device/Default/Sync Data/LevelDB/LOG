@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-2025/11/07-14:14:11.716 30ec Reusing MANIFEST C:\Users\Admin\AppData\Local\Temp\flutter_tools.200cb3cb\flutter_tools_chrome_device.f9139c96\Default\Sync Data\LevelDB/MANIFEST-000001
-2025/11/07-14:14:11.720 30ec Recovering log #3
-2025/11/07-14:14:11.721 30ec Reusing old log C:\Users\Admin\AppData\Local\Temp\flutter_tools.200cb3cb\flutter_tools_chrome_device.f9139c96\Default\Sync Data\LevelDB/000003.log 
->>>>>>> fbb4fa1 (Sắp xếp lại file)
+2025/11/07-21:15:39.207 1f48 Reusing MANIFEST C:\Users\Admin\AppData\Local\Temp\flutter_tools.4175818b\flutter_tools_chrome_device.3bc72ff6\Default\Sync Data\LevelDB/MANIFEST-000001
+2025/11/07-21:15:39.220 1f48 Recovering log #3
+2025/11/07-21:15:39.222 1f48 Reusing old log C:\Users\Admin\AppData\Local\Temp\flutter_tools.4175818b\flutter_tools_chrome_device.3bc72ff6\Default\Sync Data\LevelDB/000003.log 
