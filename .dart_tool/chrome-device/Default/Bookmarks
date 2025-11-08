@@ -1,12 +1,13 @@
 {
-   "checksum": "ecc8d642f143ff0cb51b9dfb18704aa8",
+   "checksum": "5555e1b68929270cf5a7c39f95213ec7",
+   "checksum_sha256": "7809df2f1f23b2648ee78cc64abf4089dc39c722999fae9dcc42bab129830b94",
    "roots": {
       "bookmark_bar": {
          "children": [ {
             "date_added": "13357561546996051",
             "date_last_used": "13402453871426615",
             "guid": "b81032bd-4794-4e0b-9550-a0d47e56b1d2",
-            "id": "6",
+            "id": "2",
             "meta_info": {
                "power_bookmark_meta": ""
             },
@@ -17,7 +18,7 @@
             "date_added": "13369563309642352",
             "date_last_used": "13401883075223861",
             "guid": "925464dd-d807-40fd-a7af-30dd8a53c98f",
-            "id": "7",
+            "id": "3",
             "meta_info": {
                "power_bookmark_meta": ""
             },
@@ -28,7 +29,7 @@
             "date_added": "13371277910678394",
             "date_last_used": "0",
             "guid": "72e18fc3-19a2-4d43-8a45-07c9839c535c",
-            "id": "8",
+            "id": "4",
             "meta_info": {
                "power_bookmark_meta": ""
             },
@@ -39,7 +40,7 @@
             "date_added": "13373633941936425",
             "date_last_used": "13399971266702360",
             "guid": "1840b770-7e64-4a3b-9efe-bdbc106ddee2",
-            "id": "9",
+            "id": "5",
             "meta_info": {
                "power_bookmark_meta": ""
             },
@@ -50,7 +51,7 @@
             "date_added": "13378264867000015",
             "date_last_used": "13400838053770763",
             "guid": "c646ded3-343d-4522-8e36-2f367a70f312",
-            "id": "10",
+            "id": "6",
             "meta_info": {
                "power_bookmark_meta": ""
             },
@@ -61,7 +62,7 @@
             "date_added": "13381162000071578",
             "date_last_used": "13389771327744383",
             "guid": "6784061d-f4f2-4330-b0c0-890e2ecfe00a",
-            "id": "11",
+            "id": "7",
             "meta_info": {
                "power_bookmark_meta": ""
             },
@@ -72,7 +73,7 @@
             "date_added": "13391186694923867",
             "date_last_used": "13394210733288687",
             "guid": "a02bbc1b-36a7-40cf-8f04-0eeabbfaf259",
-            "id": "12",
+            "id": "8",
             "name": "Chào mừng bạn đến với Colab - Colab",
             "type": "url",
             "url": "https://colab.research.google.com/?authuser=1"
@@ -80,7 +81,7 @@
             "date_added": "13392050687945498",
             "date_last_used": "13395681358634417",
             "guid": "cd538655-0879-457c-860d-73e689809903",
-            "id": "13",
+            "id": "9",
             "name": "AWS Academy Cloud Foundations [119836]",
             "type": "url",
             "url": "https://awsacademy.instructure.com/courses/119836?invitation=N7YspIETSR7dIb9yV35lDrAjVtEIJgXIoVegabxc"
@@ -88,7 +89,7 @@
             "date_added": "13395250145030441",
             "date_last_used": "0",
             "guid": "26c04a29-8926-4925-b4b5-054223a69b4f",
-            "id": "14",
+            "id": "10",
             "name": "RoPhim - Phim hay cả rổ - Xem Phim Mới HD Online Vietsub",
             "type": "url",
             "url": "https://www.rophim.me/phimhay"
@@ -96,7 +97,7 @@
             "date_added": "13396199405363052",
             "date_last_used": "13406649803743416",
             "guid": "ffe70aec-ae77-40b1-a115-982fd7edcc55",
-            "id": "15",
+            "id": "11",
             "name": "ntd253204 (@ntd253204) đang phát LIVE - TikTok LIVE",
             "type": "url",
             "url": "https://www.tiktok.com/@ntd253204/live?enter_from_merge=others_homepage&enter_method=others_photo"
@@ -115,7 +116,7 @@
          "date_last_used": "0",
          "date_modified": "0",
          "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
-         "id": "2",
+         "id": "12",
          "name": "Other bookmarks",
          "type": "folder"
       },
@@ -125,7 +126,7 @@
          "date_last_used": "0",
          "date_modified": "0",
          "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
-         "id": "3",
+         "id": "13",
          "name": "Mobile bookmarks",
          "type": "folder"
       }

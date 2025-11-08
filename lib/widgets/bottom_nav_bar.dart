@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:easy_localization/easy_localization.dart'; // nhớ import
 import 'package:app_music/screens/home_screen.dart';
 import 'package:app_music/screens/search_screen.dart';
 import 'package:app_music/screens/library_screen.dart';
@@ -36,13 +37,12 @@ class _BottomNavBarState extends State<BottomNavBar> {
 
   @override
   Widget build(BuildContext context) {
-    // Thứ tự screens: Home, Search, Library, Premium, Profile
     final List<Widget> _screens = [
       HomeScreen(onSongSelected: _onSongSelected),
       const SearchScreen(),
       const LibraryScreen(),
-      const PremiumScreen(), // Tab Premium thứ 4
-      const ProfileScreen(), // Tab Cá nhân cuối cùng
+      const PremiumScreen(),
+      const ProfileScreen(),
     ];
 
     return Scaffold(
@@ -145,7 +145,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
         ],
       ),
 
-      // Bottom Navigation Bar với Premium thứ 4
+      // Bottom Navigation Bar đa ngôn ngữ
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _selectedIndex,
         onTap: _onItemTapped,
@@ -153,23 +153,26 @@ class _BottomNavBarState extends State<BottomNavBar> {
         unselectedItemColor: Colors.white70,
         backgroundColor: const Color(0xFF121212),
         type: BottomNavigationBarType.fixed,
-        items: const [
+        items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home_outlined),
-            label: 'Trang chủ',
-          ),
-          BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Tìm kiếm'),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.library_music_outlined),
-            label: 'Thư viện',
+            icon: const Icon(Icons.home_outlined),
+            label: 'home'.tr(),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.star_outline),
-            label: 'Premium', // Tab Premium thứ 4
+            icon: const Icon(Icons.search),
+            label: 'search'.tr(),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person_outline),
-            label: 'Cá nhân', // Tab cuối cùng
+            icon: const Icon(Icons.library_music_outlined),
+            label: 'library'.tr(),
+          ),
+          BottomNavigationBarItem(
+            icon: const Icon(Icons.star_outline),
+            label: 'premium'.tr(),
+          ),
+          BottomNavigationBarItem(
+            icon: const Icon(Icons.person_outline),
+            label: 'profile'.tr(),
           ),
         ],
       ),

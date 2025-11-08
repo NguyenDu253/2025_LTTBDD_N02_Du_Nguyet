@@ -13,7 +13,7 @@ class PremiumScreen extends StatelessWidget {
       backgroundColor: kBackground,
       appBar: AppBar(
         title: Text(
-          tr('premium_title', args: ['Premium']), // Đa ngôn ngữ: "Premium"
+          tr('Premium', args: ['Premium']), // Đa ngôn ngữ: "Premium"
           style: const TextStyle(fontWeight: FontWeight.bold),
         ),
         backgroundColor: kBackground,

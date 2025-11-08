@@ -53,6 +53,7 @@
   "home": "Home",
   "search": "Search",
   "library": "Library",
+  "premium": "Premium",
   "profile": "Profile",
   "open_player_demo": "Open music player (demo)",
   "now_playing": "Now Playing",
@@ -62,5 +63,15 @@
   "previous": "Previous",
   "pause": "Pause",
   "next": "Next",
-  "sleep_timer": "Sleep timer"
+  "sleep_timer": "Sleep timer",
+  "title": "Premium",
+  "banner_title": "Go Premium",
+  "banner_desc": "Listen without ads.\nDownload and enjoy offline.",
+  "why_upgrade": "Why go Premium?",
+  "feature_high_quality": "High-quality music streaming",
+  "feature_offline": "Listen offline without internet",
+  "feature_no_ads": "No ads interruption",
+  "feature_sync": "Sync across multiple devices",
+  "upgrade_button": "Upgrade Now",
+  "snackbar_message": "Premium feature is under development!"
 }
